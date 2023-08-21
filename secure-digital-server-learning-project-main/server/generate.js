@@ -20,7 +20,7 @@ const getNewWallet = async () => {
             "pik": toHex(pik),
             "balance": 200
         }
-
+//
         const filePath = path.join(__dirname, '..', 'records.json');
         let records = [];
         try {
@@ -45,4 +45,4 @@ const getNewWallet = async () => {
     }
 }
 
-getNewWallet();
+getNewWallet();//generate new wallet 
